@@ -22,3 +22,8 @@ padding: 10vw 10vw 10vw 10vw;
     }
  }
 }
+/*banner*/
+section.banner div.textos{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
