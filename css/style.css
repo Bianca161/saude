@@ -22,17 +22,30 @@ padding: 10vw 10vw 10vw 10vw;
     }
  }
 }
+
+header nav ul li.atual a {
+    color: black;
+    font-weight: bold;
+}
 /*banner*/
 section.banner {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 10px 10px 10px;
 }
 section.banner h1{
     font-weight: bold;
     font-size: 3rem;
 }
-section.banner p{
+section.banner p {
 font-weight: bold;
 font-size: 1.5rem;
-} 
+}
+section.banner button {
+ margin: 10vw 5vw 10vw 5vw;
+ background-color: blueviolet;
+}
+
+
     
