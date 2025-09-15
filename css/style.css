@@ -1,5 +1,4 @@
-:root {
-  --main-bg-color: brown;
+
   font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -8,43 +7,7 @@ a{
     color: black; /* altera a cor de todos os links das páginas */
 }
 /*header*/
-header {
-padding: 10vw 10vw 10vw 10vw;
- & nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    & ul{
-        display: flex;
-    & li{
-        margin: 10px 10px 10px 10px;
-    }
-    }
- }
-}
-
-header nav ul li.atual a {
-    color: black;
-    font-weight: bold;
-}
-/*banner*/
-section.banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-}
-section.banner h1{
-    font-weight: bold;
-    font-size: 3rem;
-}
-section.banner p {
-font-weight: bold;
-font-size: 1.5rem;
-}
-section.banner button {
- margin: 10vw 5vw 10vw 5vw;
- background-color: blueviolet;
+display: flex;
 }
 
 
